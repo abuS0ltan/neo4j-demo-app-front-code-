@@ -1,0 +1,71 @@
+.register{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    color: var(--myWhite);
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 900;
+}
+.register .mainTitle{
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+}
+.register .inputform{
+    width: 70%;
+    font-size: 1.5rem;
+}
+.register .btn{
+    background-color: var(--mainColor);
+    color: var(--myWhite);
+}
+.register .btnDiv{
+    display: flex;
+    justify-content: end;
+}
+.register input{
+    background-color: transparent;
+    color: var(--myWhite);
+    padding: 1rem;
+}
+.register input:focus{
+    background-color: transparent;
+    color: var(--myWhite);
+}
+.register input::placeholder{
+    color: white;
+}
+.register .alertDiv{
+    width: 70%;
+}
+.header .register .table{
+    margin-top: 2rem;
+    width: 70%;
+    color: var(--myWhite);
+}
+.header .register .table th ,.header .register .table td{
+
+    color: var(--myWhite);
+    background-color: rgba(0, 0, 0,.8);
+    text-align: center;
+}
+@media (max-width:768px) {
+    .register .inputform{
+        width: 100%;
+    }
+}
+@media (max-width:992px) {
+    .register .inputform{
+        width: 85%;
+    }
+}
+@media (max-width:767px) {
+    .register .inputform{
+        width: 95%;
+    }
+}

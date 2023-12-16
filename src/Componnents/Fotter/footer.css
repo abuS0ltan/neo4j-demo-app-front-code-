@@ -1,0 +1,52 @@
+.footer .text{
+    color: var(--myWhite);
+    text-align: start;
+    /* padding: 2rem 0; */
+    margin: 0;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 900;
+    width: 100%;
+
+}
+.footer{
+    background-color: black;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    padding: 1rem 0;
+}
+.footer .iconDiv{
+    text-align: end;
+    width: 100%;
+}
+.footer .icon{
+    display: inline-block;
+    color: var(--myWhite);
+    /* padding: 2rem 0; */
+    font-size: 2rem;
+    margin-left: .5rem;
+}
+.footer .col-sm-6{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.footer .icon.instagram:hover{
+    color: #bc1888; 
+}
+.footer .icon.linkedin:hover{
+    color: #0077b5;
+}
+.footer .icon.email:hover{
+    color: #d10819;
+}
+@media (max-width: 576px){
+    .footer .iconDiv{
+        text-align: center;
+        padding-top: .5rem;
+    }
+    .footer .text{
+        text-align: center;
+    }
+}

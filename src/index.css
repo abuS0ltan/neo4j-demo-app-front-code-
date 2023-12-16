@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+/* 
+  font-family: 'Nova Square', sans-serif;
+*/
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root{
+  --myWhite:#fff;
+  --myBlack:#000;
+  --mainColor:rgb(57, 192, 255);
 }

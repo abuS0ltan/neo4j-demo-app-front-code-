@@ -1,0 +1,49 @@
+.header{
+    background-color: var(--myBlack);
+    min-height: 100vh;
+    height: 100%;
+    
+}
+.header .container{
+    width: 80%;
+    height: 100%;
+    background-image: url('../../images/School.jpg');
+    background-size: cover;
+    padding: 0px;
+}
+.header .container .overlay{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header .neo4j{
+    color: var(--myWhite);
+    width: 100%;
+    text-align: start;
+    padding-left: 2rem;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Nova Square', sans-serif;
+    
+}
+.header .neo4j .text{
+    font-size: 10rem;
+    position: relative;
+    top: -4rem;
+}
+.header .neo4j .text .letter{
+    color: var(--mainColor);
+}
+@media (max-width :992px){
+    .header .container{
+        background-position: -350px 00px;
+    }
+}
+@media (max-height :600px){
+    .header{
+        height: 100%;
+    }
+}

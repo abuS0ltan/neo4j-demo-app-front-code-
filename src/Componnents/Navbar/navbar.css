@@ -1,0 +1,66 @@
+.Navbar{
+    background-color: var(--myBlack);
+    border-bottom: 1px solid var(--myWhite);
+    font-weight: 600;
+    /* border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+.Navbar .navbar-brand{
+    color: var(--mainColor);
+    font-size: 1.7rem;
+}
+.Navbar .nav-link{
+    color: rgb(206, 205, 205);
+    font-size: 1.1rem;
+    margin-inline: .5rem;
+}
+.Navbar .nav-link:hover{
+    color: var(--myWhite);
+}
+.Navbar .nav-link.active{
+   color: var(--myWhite);
+}
+.Navbar .nav-link.LoginBtn{
+    color: var(--myWhite);
+    background-color: var(--mainColor);
+    border-radius: .425rem;
+    -webkit-border-radius: .425rem;
+    -moz-border-radius: .425rem;
+    -ms-border-radius: .425rem;
+    -o-border-radius: .425rem;
+    border: 1px solid var(--mainColor);
+    padding-inline: 1rem;
+
+}
+.Navbar .nav-link.RegisterBtn{
+    background-color: transparent;
+    border: 2px solid var(--mainColor);
+    border-radius: .425rem;
+    color: var(--myWhite);
+    padding-inline: 1rem;
+
+}
+.Navbar .nav-link.RegisterBtn:hover{
+    background-color: rgba(57, 192, 255,.5);
+    border-color: rgba(57, 192, 255,.5);
+}
+.Navbar .nav-link.LoginBtn:hover{
+    background-color: rgba(57, 192, 255,.5);
+    border-color: rgba(57, 192, 255,.5);
+}
+.Navbar .navbar-toggler{
+    color: var(--myWhite);
+    font-size: 2rem;
+}
+/* ===========================media quere========================== */
+@media (max-width: 992px) { 
+    .Navbar .nav-link{
+        width: fit-content;
+        margin-bottom: .5rem;
+    }
+ }
